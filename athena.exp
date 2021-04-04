@@ -1,0 +1,2 @@
+export PYTHONPATH="${PWD}/python:${PWD}/geometric:${PYTHONPATH}"
+alias mpirun=${PWD}/build/_deps/openmpi-build/bin/mpirun

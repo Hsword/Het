@@ -1,0 +1,19 @@
+name: hetu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - metis
+  - pybind11=2.6.0
+  - cmake
+  - tqdm
+  - numpy
+  - pyyaml
+  - libprotobuf
+  - scipy
+  - pip
+  - scikit-learn
+  - pandas
+  - nltk
+  - ogb
+  - tensorflow=1.15

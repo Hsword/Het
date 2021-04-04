@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package gnn_rpc;
+
+message GNNDataRequest {
+    repeated int32 index = 1;
+}
+
+message GNNNodeData {
+    repeated float feat = 1;
+    int32 label = 2;
+    repeated int32 edge_nodes_id = 3;
+    repeated int32 edge_nodes_from = 4;
+}
+
+message GNNDataReply {
+    repeated GNNNodeData nodes = 1;
+}
+
+service GNNDataHandler {
+    rpc PullNodeFeature (GNNDataRequest) returns (GNNDataReply) {
+    }
+}
