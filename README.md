@@ -2,7 +2,9 @@
 
 [![license](https://img.shields.io/github/license/apache/zookeeper?color=282661)](https://github.com/Hsword/Het/blob/main/LICENSE)
 
-A distributed deep learning framework for huge embedding model training (previouly named Athena). HET is developed by <a href="http://net.pku.edu.cn/~cuibin/" target="_blank" rel="nofollow">DAIM Lab</a> at Peking University. This is a previewed version for the reviewers to verify our reproducibility and the whole system is not fully released. If you have any questions, please email to *xupeng.miao@pku.edu.cn*
+***This repository has been deactivated and merged to [Hetu](https://github.com/PKU-DAIR/Hetu). Currently, HET is one of the supported features of Hetu.***
+
+A distributed deep learning framework for huge embedding model training (previouly named Athena). HET is developed by <a href="http://net.pku.edu.cn/~cuibin/" target="_blank" rel="nofollow">DAIR Lab</a> at Peking University. This is a previewed version for the reviewers to verify our reproducibility and the whole system is not fully released. If you have any questions, please email to *xupeng.miao@pku.edu.cn*
 
 ## Installation
 1. Clone the respository.
